@@ -28,6 +28,23 @@ table tr td:first-child {
 table tr td:last-child {
     border-right: 0;
 }
+button {
+    float: right;
+    cursor: pointer;
+    margin: 15px;
+    padding: 2px 5px;
+    background-color: #fd0;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: transparent;
+    color: #fd0;
+    border: 1.5px solid #fd0;
+}
 .endgame {
     display: none;
     width: 200px;
